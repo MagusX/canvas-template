@@ -2,7 +2,7 @@
   // locals
 
   function run() {
-    requestAnimationFrame(UI);
+    requestAnimationFrame(run);
     CTX.clearRect(0, 0, CANVAS_W, CANVAS_H);
     // update objects
   }
